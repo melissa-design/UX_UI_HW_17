@@ -3,33 +3,33 @@ body {
 }
 
 header {
-     background-color: #BCBBAE;
-     color: #353535;;
-     font-size: 28px;
-}
-
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+    background-color: #BCBBAE;
+    color: #353535;
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .logo {
-    width: 23%; 
+    display: inline-block;
+    vertical-align: top;
+    width: 21%;
     padding: 1%;
-      }
-
-nav {
-    width: 73%; 
-    padding: 1%;
-        }
-
-ul {
-    width: 50%;
-    margin-left: auto;
-    list-style: none;
 }
 
-ul li {
+nav {
     display: inline-block;
-    width: 25%;
+    vertical-align: top;
+    width: 53%;
+    margin-left: 10%;
+}
+
+.menuitem {
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-block;
+    width: 252px;
+    text-align: center;
 }
