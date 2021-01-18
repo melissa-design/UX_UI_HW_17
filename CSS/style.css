@@ -1,0 +1,18 @@
+body {
+    font-family: monospace;
+}
+
+ header {
+     background-color: #BCBBAE;
+     color:#35;
+     padding: 140px;
+     text-align: justify;
+ }
+
+ .logo {
+     display: inline-block;
+ }
+ .topmenu li {
+     width: 25%;
+     display: inline-block
+ }
