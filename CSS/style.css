@@ -2,17 +2,34 @@ body {
     font-family: monospace;
 }
 
- header {
+header {
      background-color: #BCBBAE;
-     color:#35;
-     padding: 140px;
-     text-align: justify;
- }
+     color: #353535;;
+     font-size: 28px;
+}
 
- .logo {
-     display: inline-block;
- }
- .topmenu li {
-     width: 25%;
-     display: inline-block
- }
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%; 
+    padding: 1%;
+      }
+
+nav {
+    width: 73%; 
+    padding: 1%;
+        }
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    width: 25%;
+}
