@@ -1,218 +1,186 @@
-                                                                :root {
-                                                                   --primary: #ECECE7;
-                                                                   --secondary: #BCBBAE;
-                                                                   --highlight: #9A988C;
-                                                                   --secondaryhighlight: #7E7D75;
-                                                                   --text: #353535;
-                                                                   --headerfont: 'Arimo', sans-serif;
-                                                                   --bodyfont: 'Roboto', sans-serif;
-                                                               }
-                                                               
-                                                               @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-                                                               * {
-                                                                   box-sizing: border-box;
-                                                                   margin: 0;
-                                                                   padding: 0;
-                                                                   scroll-behavior: smooth;
-                                                                   font-weight: normal;
-                                                               }
-                                                               
-                                                               html,
-                                                               body {
-                                                                   height: 100%;
-                                                                   width: 100%;
-                                                               }
-                                                               
-                                                               html {
-                                                                   font-size: 18px;
-                                                                   color: var(--text);
-                                                                   font-family: var(--bodyfont);
-                                                               }
-                                                               
-                                                               h1,
-                                                               h2,
-                                                               h3,
-                                                               h4,
-                                                               h5,
-                                                               h6 {
-                                                                   font-family: var(--headerfont);
-                                                               }
-                                                               
-                                                               h1,
-                                                               .h1 {
-                                                                   font-size: 4rem;
-                                                                   line-height: 3.6rem;
-                                                               }
-                                                               
-                                                               h2,
-                                                               .h2 {
-                                                                   font-size: 3rem;
-                                                                   font-weight: bold;
-                                                               }
-                                                               
-                                                               h3,
-                                                               .h3 {
-                                                                   font-size: 2rem;
-                                                                   font-weight: bold;
-                                                               }
-                                                               
-                                                               h4,
-                                                               .h4 {
-                                                                   font-size: 1.75rem;
-                                                                   font-weight: bold;
-                                                               }
-                                                               
-                                                               h5,
-                                                               .h5 {
-                                                                   font-size: 1.5rem;
-                                                               }
-                                                               
-                                                               h6,
-                                                               .h6 {
-                                                                   font-size: 1rem;
-                                                               }
-                                                               
-                                                               p,
-                                                               li,
-                                                               .body1,
-                                                               .body2,
-                                                               .body3,
-                                                               .subtitle1,
-                                                               .subtitle2 {
-                                                                   font-family: var(--bodyfont);
-                                                               }
-                                                               
-                                                               p {
-                                                                   font-size: 1rem;
-                                                               }
-                                                               
-                                                               .body1 {
-                                                                   font-size: 1.33rem;
-                                                               }
-                                                               
-                                                               .body2 {
-                                                                   font-size: 1.11rem;
-                                                               }
-                                                               
-                                                               .body3 {
-                                                                   font-size: 1rem;
-                                                               }
-                                                               
-                                                               .subtitle1 {
-                                                                   font-size: 1.5rem;
-                                                               }
-                                                               
-                                                               .subtitle2 {
-                                                                   font-size: 1.11rem;
-                                                                   text-transform: uppercase;
-                                                               }
-                                                               
-                                                               body {
-                                                                   background-color: var(--primary);
-                                                               }
-                                                               
-                                                               header {
-                                                                   display: flex;
-                                                                   height: 90px;
-                                                                   padding-left: 13%;
-                                                                   padding-right: 13%;
-                                                                   background-color: var(--secondary);
-                                                               }
-                                                               
-                                                               .nav {
-                                                                   display: flex;
-                                                                   justify-content: flex-end;
-                                                                   flex-flow: row wrap;
-                                                               }
-                                                               
-                                                               .menuitems {
-                                                                   display: flex;
-                                                                   flex-flow: row wrap;
-                                                                   align-items: center;
-                                                                   justify-content: center;
-                                                                   flex-grow: 1;
-                                                               }
-                                                               
-                                                               .logo {
-                                                                   display: flex;
-                                                                   justify-content: flex-start;
-                                                                   flex-grow: 2;
-                                                               }
-                                                               /* 
-                                                header {
-                                                    background-color: var(--secondary);
-                                                    padding-left: 140px;
-                                                    padding-right: 140px;
-                                                }
-                                                
-                                                .logo {
-                                                    display: inline-block;
-                                                    vertical-align: top;
-                                                    width: 21%;
-                                                    padding: 1%;
-                                                }
-                                                
-                                                nav {
-                                                    display: inline-block;
-                                                    vertical-align: top;
-                                                    width: 53%;
-                                                    margin-left: 10%;
-                                                }
-                                                
-                                                .menuitem {
-                                                    margin: 0;
-                                                    padding: 0;
-                                                    padding-top: 2%;
-                                                    padding-bottom: 2%;
-                                                    display: inline-block;
-                                                    width: 220px;
-                                                    text-align: center;
-                                                }
- */
-                                                               
-                                                               .bio {
-                                                                   margin-top: 140px;
-                                                               }
-                                                               
-                                                               .containerProfilePic {
-                                                                   text-align: center;
-                                                               }
-                                                               
-                                                               .biotitle h1 {
-                                                                   text-align: center;
-                                                               }
-                                                               
-                                                               .biotext {
-                                                                   max-width: 1080px;
-                                                                   min-width: 328px;
-                                                                   margin: 0 auto;
-                                                                   padding: 16px;
-                                                               }
-                                                               
-                                                               footer {
-                                                                   display: flex;
-                                                                   height: 354px;
-                                                                   padding-left: 13%;
-                                                                   padding-right: 13%;
-                                                                   background-color: var(--secondary);
-                                                               }
-                                                               
-                                                               .footercontainer {
-                                                                   padding: 112px;
-                                                                   display: flex;
-                                                                   justify-content: flex-start;
-                                                                   flex-flow: row wrap;
-                                                                   flex-grow: 1;
-                                                               }
-                                                               
-                                                               .footer-button {
-                                                                   display: flex;
-                                                                   height: 100px;
-                                                                   flex-grow: 1;
-                                                               }
-                                                               
-                                                               .contact {
-                                                                   display: flex;
-                                                                   flex-direction: column;
-                                                                   flex-grow: 2;
-                                                               }
+:root {
+    --primary: #ECECE7;
+    --secondary: #BCBBAE;
+    --highlight: #9A988C;
+    --secondaryhighlight: #7E7D75;
+    --text: #353535;
+    --headerfont: 'Arimo', sans-serif;
+    --bodyfont: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-weight: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    font-size: 18px;
+    color: var(--text);
+    font-family: var(--bodyfont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--headerfont);
+}
+
+h1,
+.h1 {
+    font-size: 4rem;
+    line-height: 3.6rem;
+}
+
+h2,
+.h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3,
+.h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4,
+.h4 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+h5,
+.h5 {
+    font-size: 1.5rem;
+}
+
+h6,
+.h6 {
+    font-size: 1rem;
+}
+
+p,
+li,
+.body1,
+.body2,
+.body3,
+.subtitle1,
+.subtitle2 {
+    font-family: var(--bodyfont);
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.body1 {
+    font-size: 1.33rem;
+}
+
+.body2 {
+    font-size: 1.11rem;
+}
+
+.body3 {
+    font-size: 1rem;
+}
+
+.subtitle1 {
+    font-size: 1.5rem;
+}
+
+.subtitle2 {
+    font-size: 1.11rem;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+header {
+    height: 72px;
+    background-color: var(--secondary);
+}
+
+.headercontainer {
+    padding: 12px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1640px;
+}
+
+nav {
+    display: flex;
+    padding: 0 2rem;
+}
+
+.menuitem {
+    padding: 0 3rem;
+    white-space: nowrap;
+}
+
+.logo {
+    padding: 0 2rem;
+    white-space: nowrap;
+}
+
+.bio {
+    margin-top: 8rem;
+}
+
+.bio p {
+    margin-bottom: 1rem;
+}
+
+.containerProfilePic {
+    text-align: center;
+}
+
+.biotitle h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.biotext {
+    max-width: 1080px;
+    min-width: 328px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem 2rem;
+}
+
+footer {
+    background-color: var(--secondary);
+}
+
+.footercontainer {
+    padding: 112px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    max-width: 1640px;
+}
+
+.footer-button {
+    padding: 0 2rem;
+}
